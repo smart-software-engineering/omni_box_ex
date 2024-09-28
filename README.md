@@ -1,5 +1,23 @@
 # OmniBoxEx
 
+## Kudos
+
+This is a copy of a WebComponent called
+OmniBox. I just copied it into a phoenix
+live view application to try out get it
+working with liveview.
+
+Be aware that this is a work in Progress, so it will not yet work!!
+
+* [Medium Article](https://medium.com/cto-as-a-service/the-autocomplete-box-reinvented-for-the-modern-web-2848430df1e9)
+* [Codepen](https://codepen.io/mvneerven/pen/JjqodYJ)
+
+## Progress on fly
+
+
+
+## Phoenix setup
+
 To start your Phoenix server:
 
   * Run `mix setup` to install and setup dependencies
