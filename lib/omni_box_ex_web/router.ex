@@ -17,7 +17,8 @@ defmodule OmniBoxExWeb.Router do
   scope "/", OmniBoxExWeb do
     pipe_through :browser
 
-    get "/", PageController, :home
+    get "/", OmniBoxController, :index
+    live "/live", OmniBoxLive
   end
 
   # Other scopes may use custom stacks.

@@ -1,4 +1,4 @@
-defmodule OmniBoxExWeb.PageHTML do
+defmodule OmniBoxExWeb.OmniBoxHTML do
   @moduledoc """
   This module contains pages rendered by PageController.
 
@@ -6,5 +6,5 @@ defmodule OmniBoxExWeb.PageHTML do
   """
   use OmniBoxExWeb, :html
 
-  embed_templates "page_html/*"
+  embed_templates "omni_box_html/*"
 end
